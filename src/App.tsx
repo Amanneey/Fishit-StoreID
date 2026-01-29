@@ -1,13 +1,13 @@
 
 import React, { useState } from 'react';
 import { Product, CartItem, Category } from './types';
-import { PRODUCTS } from './components/constants';
-import ProductCard from './components/ProductCard';
-import CartSidebar from './components/CartSidebar';
-import WhatsAppButton from './components/WhatsAppButton';
-import PaymentModal from './components/PaymentModal';
-import AIAssistant from './components/AIAssistant';
-import WelcomePopup from './components/WelcomePopup';
+import { PRODUCTS } from "./constants";
+import ProductCard from "./ProductCard";
+import CartSidebar from "./CartSidebar";
+import WhatsAppButton from "./WhatsAppButton";
+import PaymentModal from "./PaymentModal";
+import AIAssistant from "./AIAssistant";
+import WelcomePopup from "./WelcomePopup";
 
 const SECTIONS: Category[] = ['Secret Fish', 'Gamepass', 'Skin Crates', 'Enchant Items', 'Bundle Pack'];
 
