@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Product, CartItem, Category } from './types';
-import { PRODUCTS } from './components/constants';
+import { PRODUCTS } from './constants';
 import ProductCard from './components/ProductCard';
 import CartSidebar from './components/CartSidebar';
 import WhatsAppButton from './components/WhatsAppButton';
